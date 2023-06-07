@@ -21,7 +21,6 @@
 #include <sys/time.h>
 #include <unistd.h>
 #include <time.h>
-// #include <windows.h>
 
 typedef struct node
 {
