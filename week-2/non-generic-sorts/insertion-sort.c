@@ -1,4 +1,4 @@
-// Selection sort algorithm for an array of ints
+// Insertion sort algorithm for an array of ints
 #include <assert.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -20,7 +20,7 @@ int main(void)
     populate_array(array, size);
     print_array(array, size);
 
-    // Use selection sort to sort the array
+    // Use insertion sort to sort the array
     insertion_sort(array, size);
     print_array(array, size);
 
